@@ -1,0 +1,41 @@
+{
+  "name": "Mention All Bot",
+  "description": "A simple mention all for telegram.",
+  "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": ""
+      },
+      "DATABASE_URL": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "OWNER_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "LOG_CHANNEL": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "GONDERME_TURU": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "BOT_USERNAME": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": ""
+      }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
